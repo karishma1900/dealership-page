@@ -6,8 +6,12 @@
   background-color: darkturquoise;
   min-width: 350px;
   width: 30%;
+  border-radius: 10px;
 }
-
+.register_container span{
+  
+  text-align: center;
+}
 .inputs{
   display: flex;
   flex-direction: column;
@@ -15,33 +19,44 @@
 }
 
 .input{
+  margin:0px 20px;
   display: flex;
   flex-direction:row;
   align-items: center;
+ 
 }
 
 .input_field{
   height:40px;
+  padding:15px 10px;
+  border-radius: 5px;
+  border:none;
   width:200px;
   margin:.5cm;
   font-size: medium;
+  outline: none;
 }
 
 .submit_panel{
+  margin-left:30%;
+  margin-right: 30%;
   display: flex;
   flex-direction:column;
   margin-top: 5%;
   margin-bottom: 5%;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.45);
 }
 
 .submit{
-  margin-left: 30%;
-  margin-right: 30%;
+ 
   cursor: pointer;
   font-size: large;
   color: rgb(97, 64, 128);
   border-radius: 10px;
   height:50px;
+  border:none;
+  outline: none;
 }
 
 .submit:hover {
